@@ -14,7 +14,6 @@ Translations:
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
-- [Português Brasileiro](translations/README-ptbr.md)
 
 Translations in progress:
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
@@ -25,15 +24,15 @@ Translations in progress:
 - [French](https://github.com/jwasham/coding-interview-university/issues/89)
 - [Russian](https://github.com/jwasham/coding-interview-university/issues/87)
 - [Ukrainian](https://github.com/jwasham/coding-interview-university/issues/106)
+- [Brazilian Portuguese](https://github.com/jwasham/coding-interview-university/issues/113)
 - [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
 - [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
 - [Polish](https://github.com/jwasham/coding-interview-university/issues/122)
+- [German](https://github.com/jwasham/coding-interview-university/issues/135)
 - [Urdu](https://github.com/jwasham/coding-interview-university/issues/140)
 - [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
 - [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
 - [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
-- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-- [Japanese (日本語)](https://github.com/jwasham/coding-interview-university/issues/257)
 
 ## What is it?
 
@@ -48,7 +47,7 @@ many years of experience and are claiming many years of software engineering exp
 If you have many years of software/web development experience, note that large software companies like Google, Amazon,
 Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
 
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+If you want to be a reliability engineer or systems engineer, study more from the optional list (networking, security).
 
 ---
 
@@ -214,7 +213,6 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 - Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 
 ## About Video Resources
 
@@ -306,9 +304,8 @@ If short on time:
 
 If you have more time (I want this book):
 
-- [ ] [Computer Architecture, Sixth Edition: A Quantitative Approach](https://www.amazon.com/dp/0128119055)
-    - For a richer, more up-to-date (2017), but longer treatment
-
+- [ ] [Computer Architecture, Fifth Edition: A Quantitative Approach](https://www.amazon.com/dp/012383872X/)
+    - For a richer, more up-to-date (2011), but longer treatment
 
 ### Language Specific
 
@@ -372,6 +369,7 @@ OR:
             - this is the real reason you buy this book.
             - about to get to this part. Will update here once I've made my way through it.
     - Can rent it on kindle
+    - Half.com is a great resource for textbooks at good prices.
     - Answers:
         - [Solutions](http://www.algorithm.cs.sunysb.edu/algowiki/index.php/The_Algorithms_Design_Manual_(Second_Edition))
         - [Solutions](http://blog.panictank.net/category/algorithmndesignmanualsolutions/page/2/)
@@ -379,6 +377,7 @@ OR:
 
 - [ ] [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
     - **Important:** Reading this book will only have limited value. This book is a great review of algorithms and data structures, but won't teach you how to write good code. You have to be able to code a decent solution efficiently.
+    - Half.com is a great resource for textbooks at good prices.
     - aka CLR, sometimes CLRS, because Stein was late to the game
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
@@ -1165,7 +1164,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - The first half is enough.
 
 - ### Networking
-    - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
+    - **if you have networking experience or want to be a systems engineer, expect questions**
     - otherwise, this is just good to know
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
@@ -1487,7 +1486,7 @@ You're never really done.
 
 ## Additional Books
 
-- [ ] [The Unix Programming Environment](https://www.amazon.com/dp/013937681X)
+- [ ] [The Unix Programming Environment](http://product.half.ebay.com/The-UNIX-Programming-Environment-by-Brian-W-Kernighan-and-Rob-Pike-1983-Other/54385&tg=info)
     - an oldie but a goodie
 - [ ] [The Linux Command Line: A Complete Introduction](https://www.amazon.com/dp/1593273894/)
     - a modern option
@@ -1497,7 +1496,7 @@ You're never really done.
 - [ ] [Design Patterns: Elements of Reusable Object-Oriente​d Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
     - aka the "Gang Of Four" book, or GOF
     - the canonical design patterns book
-- [ ] [UNIX and Linux System Administration Handbook, 5th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0134277554/)
+- [ ] [UNIX and Linux System Administration Handbook, 4th Edition](https://www.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/)
 
 ## Additional Learning
 
@@ -1601,6 +1600,7 @@ software engineer, and to be aware of certain technologies and algorithms, so yo
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
 - ### Garbage collection
+    - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
@@ -1912,7 +1912,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Excellent - MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/playlist?list=PL3B08AE665AB9002A)
 
-- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](http://www.infocobuild.com/education/audio-video-courses/computer-science/cs70-spring2015-berkeley.html)
+- [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
 - [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
 
